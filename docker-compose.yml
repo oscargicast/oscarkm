@@ -1,0 +1,6 @@
+services:
+  qmk:
+    image: qmkfm/qmk_firmware
+    volumes:
+    - ./oscar:/qmk_firmware/keyboards/crkbd/keymaps/oscar
+    - ./build:/qmk_firmware/.build
